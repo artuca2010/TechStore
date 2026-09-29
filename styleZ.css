@@ -1,0 +1,80 @@
+/* tech First Page StyleZation ---///-/-/-/---- */
+* {
+    background-color: rgb(152, 152, 152);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#NavBar {
+    height: 4vw;
+    background-color: rgb(34, 36, 37); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Techness Font */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-logo {
+    background: transparent;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.brand-tech {
+    color: #00d2ff;
+    background: transparent;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.brand-store {
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Slogan Style */
+.nav-slogan {
+    background: transparent;
+    color: rgb(140, 155, 165);
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-left: 8px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 8px;
+}
+
+/* Links Menu */
+#NavBar ul {
+    background: transparent;
+    list-style-type: none;
+    display: flex;
+    gap: 4px;
+}
+
+#NavBar li {
+    background: transparent;
+}
+
+/* Hover Effect -----/-/-/-/---- */
+#NavBar a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #00d2ff;
+}
+
+#NavBar a.active {
+    background-color: rgb(45, 54, 60);
+    border-bottom: 2px solid #00d2ff;
+}
+
+/* ------------/-/-/-/-/-------*/
+/* Main Logo -- */

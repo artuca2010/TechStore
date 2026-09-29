@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="Assets/TechIcon.png">
+    <link rel="stylesheet" href="styleZ.css">
+    <title>Tech Store</title>
+</head>
+<body>
+    <header>
+        <nav id="NavBar">
+            <!-- Bloco do Logotipo -->
+            <div class="nav-logo">
+                <span class="brand-tech">tech</span><span class="brand-store">Store</span>
+                <span class="nav-slogan">soluções em tecnologia</span>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="criar-conta">
+    <h2>Como criar sua conta</h2>
+    <!-- O uso de <ol> garante que leitores de tela anunciem a ordem dos passos -->
+    <ol class="passos-lista">
+        <li class="passo-item">
+            <div class="passo-numero">1</div>
+            <div class="passo-conteudo">
+                <h3>Preencha seus dados</h3>
+                <p>Insira seu nome completo, e-mail válido e escolha uma senha segura de acesso.</p>
+            </div>
+        </li>
+        <li class="passo-item">
+            <div class="passo-numero">2</div>
+            <div class="passo-conteudo">
+                <h3>Confirme seu e-mail</h3>
+                <p>Enviaremos um código de verificação para a sua caixa de entrada para validar o acesso.</p>
+            </div>
+        </li>
+        <li class="passo-item">
+            <div class="passo-numero">3</div>
+            <div class="passo-conteudo">
+                <h3>Aproveite os recursos</h3>
+                <p>Pronto! Seu perfil está ativo para explorar todos os produtos e vantagens tecnológicas.</p>
+            </div>
+        </li>
+    </ol>
+</section>
+
+        <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form action="#" method="POST">
+        <div class="form-grupo">
+            <!-- Vínculo explícito usando o atributo 'for' direcionado ao 'id' do input -->
+            <label id="label-nome" for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required aria-labelledby="label-nome">
+        </div>
+
+        <div class="form-grupo">
+            <!-- Vínculo explícito usando o atributo 'for' direcionado ao 'id' do input -->
+            <label id="label-email" for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required aria-labelledby="label-email">
+        </div>
+
+        <!-- Botão de envio com a classe CSS solicitada -->
+        <button type="submit" class="btn-destaque">Enviar Mensagem</button>
+    </form>
+</section>
+    </main>
+</body>
+</html>
+
